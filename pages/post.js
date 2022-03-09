@@ -1,5 +1,11 @@
 import Nav from "../components/Nav";
 
+const Comment = () => (
+    <div className="my-4 max-w-[85%]">
+
+    </div>
+)
+
 const Post = () => {
     return (
         <div>
