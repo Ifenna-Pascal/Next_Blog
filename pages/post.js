@@ -21,25 +21,25 @@ const TopStories = () => {
     return (
         <div className="my-4 max-w-[85%]">
         <h1 className="text-3xl font-bold text-[#00B0F0] tracking-wide mb-1">Top Stories</h1>
-        <div className="bg-gray-100 border-t-2 border-gray-700 py-8 px-6 flex items-center flex-col">
-            <div className="grid grid-cols-3 gap-x-6">
+        <div className="bg-gray-100 border-t-2 border-gray-700 py-12 px-6 flex items-start flex-col">
+            <div className="grid max-w-[95%] px-8 grid-cols-3 gap-x-8">
                     <div className="flex flex-col items-start justify-start">
-                        <div className="flex flex-col w-full mb-1 rounded-md items-center">
-                            <img src="/images/image.png" className="w-full" />
+                        <div className="flex flex-col w-full mb-2 rounded-md items-center">
+                            <img src="/images/image.png" className="w-full rounded-xl" />
                         </div>
-                        <span className="tracking-wider w-[65%] font-semibold text-base">Lorem ipsum dolor sit amet elit.</span>
+                        <span className="tracking-wider w-[65%] mx-1 font-semibold text-base">Lorem ipsum dolor sit amet elit.</span>
                     </div>
                     <div className="flex flex-col items-start justify-start">
-                        <div className="flex flex-col w-full mb-1 rounded-md items-center">
-                            <img src="/images/image.png" className="w-full" />
+                        <div className="flex flex-col w-full mb-2 rounded-md items-center">
+                            <img src="/images/image.png" className="w-full rounded-xl" />
                         </div>
-                        <span className="tracking-wider w-[65%] font-semibold text-base">Lorem ipsum dolor sit amet elit.</span>
+                        <span className="tracking-wider w-[65%] mx-1 font-semibold text-base">Lorem ipsum dolor sit amet elit.</span>
                     </div>
                     <div className="flex flex-col items-start justify-start">
-                        <div className="flex flex-col w-full mb-1 rounded-md items-center">
-                            <img src="/images/image.png" className="w-full" />
+                        <div className="flex flex-col w-full mb-2 rounded-md items-center">
+                            <img src="/images/image.png" className="w-full rounded-xl" />
                         </div>
-                        <span className="tracking-wider w-[65%] font-semibold text-base">Lorem ipsum dolor sit amet elit.</span>
+                        <span className="tracking-wider w-[65%] mx-1 font-semibold text-base">Lorem ipsum dolor sit amet elit.</span>
                     </div>
             </div>
         </div>
